@@ -10,6 +10,15 @@ import { MonthlyOverviewComponent } from './monthly-overview/monthly-overview.co
 import { HabitTrackerComponent } from './habit-tracker/habit-tracker.component';
 import { WaterIntakeComponent } from './water-intake/water-intake.component';
 import { JournalTabsComponent } from './journal-tabs/journal-tabs.component';
+import { HeaderComponent } from './header/header.component';
+import { WeeklyOverviewComponent } from './weekly-overview/weekly-overview.component';
+import { DailyOverviewComponent } from './daily-overview/daily-overview.component';
+import { BirthdayOverviewComponent } from './birthday-overview/birthday-overview.component';
+import { YearOverviewComponent } from './year-overview/year-overview.component';
+import { ZodiacOverviewComponent } from './zodiac-overview/zodiac-overview.component';
+import { FooterComponent } from './footer/footer.component';
+import { SettingsComponent } from './settings/settings.component';
+import { LegendComponent } from './legend/legend.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +26,16 @@ import { JournalTabsComponent } from './journal-tabs/journal-tabs.component';
     MonthlyOverviewComponent,
     HabitTrackerComponent,
     WaterIntakeComponent,
-    JournalTabsComponent
+    JournalTabsComponent,
+    HeaderComponent,
+    WeeklyOverviewComponent,
+    DailyOverviewComponent,
+    BirthdayOverviewComponent,
+    YearOverviewComponent,
+    ZodiacOverviewComponent,
+    FooterComponent,
+    SettingsComponent,
+    LegendComponent
   ],
   imports: [
     BrowserModule,
