@@ -23,6 +23,10 @@ body{
 
 }
 
+.tabs, .journal-entry{
+	display: flex;
+}
+
 #journal-entry{
 	min-height: 80%;
 	display: flex;
