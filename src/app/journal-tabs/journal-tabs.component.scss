@@ -5,4 +5,11 @@
 
 #options li{
 	list-style-type: none;
+	padding: 5px;
+}
+
+li.selected{
+	background: white;
+	border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
