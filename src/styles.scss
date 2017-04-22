@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@progress/kendo-theme-default/scss/all";
+
+
+$font-family: 'Reenie Beanie', cursive;
+$accent-color: #EF6917;
+
+html{
+	height: 100%;
+}
+
+body{
+	background: #31135A;
+	margin: 0px;
+	max-height: 100vh;
+}
+
+#bujo-entry{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+}
+
+#journal-entry{
+	min-height: 80%;
+	display: flex;
+}
+
+.page{
+	width: 95%;
+	margin: 2%;
+	margin: auto;
+	min-height: 100%;
+	border: 1px dashed #ecf0f1;
+	border-radius: 50px;
+	background: #FFFFFF;
+}
+
+header, footer{
+	width: 100vw;
+	text-align: center;
+}
+
+
+h1, a{
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 20px;
+	color: #ecf0f1;
+    text-decoration: none;
+}
+
+
+.k-calendar.k-calendar-infinite {
+ height: 500px;
+ border-radius: 50px;
+
+}
+
+
+.k-widget{
+	border-style: none;
+}
+
+.k-calendar .k-state-selected .k-link{
+	background-color: $accent-color;
+}
+
+.k-calendar-header .k-today{
+	color: $accent-color;
+}
