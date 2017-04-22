@@ -27,8 +27,18 @@ body{
 	display: flex;
 }
 
+.tabs{
+	width: 5%;
+	height: 100%;
+    border-radius: 50px;
+    flex-direction: row-reverse;
+    margin: auto;
+}
+
 #journal-entry{
 	min-height: 80%;
+	width: 90%;
+	margin: auto;
 	display: flex;
 }
 
