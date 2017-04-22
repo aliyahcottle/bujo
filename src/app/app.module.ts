@@ -5,10 +5,16 @@ import { HttpModule } from '@angular/http';
 import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
 
 import { AppComponent } from './app.component';
+import { MonthlyOverviewComponent } from './monthly-overview/monthly-overview.component';
+import { HabitTrackerComponent } from './habit-tracker/habit-tracker.component';
+import { WaterIntakeComponent } from './water-intake/water-intake.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MonthlyOverviewComponent,
+    HabitTrackerComponent,
+    WaterIntakeComponent
   ],
   imports: [
     BrowserModule,
