@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-weekly-overview',
+  selector: 'weekly-overview',
   templateUrl: './weekly-overview.component.html',
   styleUrls: ['./weekly-overview.component.scss']
 })

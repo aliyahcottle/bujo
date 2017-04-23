@@ -19,6 +19,7 @@ import { ZodiacOverviewComponent } from './zodiac-overview/zodiac-overview.compo
 import { FooterComponent } from './footer/footer.component';
 import { SettingsComponent } from './settings/settings.component';
 import { LegendComponent } from './legend/legend.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { LegendComponent } from './legend/legend.component';
     ZodiacOverviewComponent,
     FooterComponent,
     SettingsComponent,
-    LegendComponent
+    LegendComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
