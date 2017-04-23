@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
 import { GridModule } from '@progress/kendo-angular-grid';
+import { PopupModule } from '@progress/kendo-angular-popup';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { MonthlyOverviewComponent } from './monthly-overview/monthly-overview.component';
@@ -44,7 +46,10 @@ import { BannerComponent } from './banner/banner.component';
     FormsModule,
     HttpModule,
     DateInputsModule,
-    GridModule
+    GridModule,
+    PopupModule,
+    BrowserAnimationsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

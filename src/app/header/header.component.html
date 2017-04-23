@@ -1,5 +1,17 @@
 <header>
-		<img src="../assets/img/legend.png">
+		<button #anchor (click)="onToggleLegend()"><img src="../assets/img/legend.png"></button>
+
+      <kendo-popup [popupClass]="'inner-wrapper'" [offset]="offset" *ngIf="showLegend">
+    	<h1>Legend</h1>
+      </kendo-popup>
+
 		<h1>BuJo</h1>
-		<img src="../assets/img/settings.png">
+
+
+		<button #anchor (click)="onToggleSettings()"><img src="../assets/img/settings.png"></button>
+
+		  <kendo-popup [popupClass]="'inner-wrapper'" [offset]="offset" *ngIf="showSettings">
+    	<h1>Settings</h1>
+      </kendo-popup>
+
 </header>

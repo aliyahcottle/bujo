@@ -63,7 +63,7 @@ h1, a{
     text-decoration: none;
 }
 
-monthly-overview, weekly-overview{
+monthly-overview, weekly-overview, birthday-overview{
 	display: flex;
 	height: 100%;
 }
@@ -101,3 +101,13 @@ monthly-overview, weekly-overview{
 .k-grid-header{
 	display: none;
 }
+
+.inner-wrapper {
+    padding: 20px;
+    color: #fff;
+    background-color: #31135A;
+    width: 50vw;
+    height: 50vh;
+    border: 3px solid #ecf0f1;
+    box-shadow: 5px 5px 5px #888888;
+  }

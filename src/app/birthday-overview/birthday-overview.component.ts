@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-birthday-overview',
+  selector: 'birthday-overview',
   templateUrl: './birthday-overview.component.html',
   styleUrls: ['./birthday-overview.component.scss']
 })

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html data-ng-app="ngLettering">
+<head>
+    <title>AngularJS Lettering.js</title>
+
+    <script type="text/javascript" src="http://code.angularjs.org/1.2.12/angular.min.js"></script>
+    <script type="text/javascript" src="ng-Lettering.js"></script>
+
+	<link rel="stylesheet/less" type="text/css" href="styles/main.less" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.5.0/less.min.js"></script>
+
+</head>
+<body>
+
+	<header id="top">
+		<a href="https://github.com/patrickmarabeas/ng-Lettering.js">View it on GitHub</a>
+		<a href="https://github.com/patrickmarabeas/ng-Lettering.js/zipball/master">Download ZIP</a>
+		<a href="https://github.com/patrickmarabeas/ng-Lettering.js/tarball/master">Download TAR</a>
+		<a href="https://github.com/patrickmarabeas">@patrickmarabeas</a>
+	</header>
+
+	<div class="page">
+
+		<header>
+
+			<h1 data-lettering="words">/poke</h1>
+			<h2 data-lettering="letters">ng-Lettering.js</h2>
+			<h3 data-lettering="words">allows you to do radical typography</h3>
+			<h3 data-lettering="words">super easily (not even joking).</h3>
+			<h4 data-lettering="words">It also works brilliantly in a responsive layout.</h4>
+
+		</header>
+
+		<div id="content">
+
+			<h2>ng-Lettering.js is an AngularJS &lt;span&gt; injector for radical Web Typography.</h2>
+
+			<p>Include it in your AngularJS application</p>
+
+			<code>var myApp = angular.module( 'myApp', [ 'ngLettering' ] );</code>
+
+			<p>Apply it to your text</p>
+
+			<code>
+				&lt;span data-lettering="letters"&gt;This is a sentence&lt;/span&gt;
+				<br/>
+				&lt;span data-lettering="words"&gt;This is a sentence&lt;/span&gt;
+				<br/>
+				&lt;div data-lettering="lines"&gt;This&lt;br/&gt;is&lt;br/&gt;a&lt;br/&gt;sentence&lt;/div&gt;
+			</code>
+
+		</div>
+
+	</div>
+
+</body>
+</html>

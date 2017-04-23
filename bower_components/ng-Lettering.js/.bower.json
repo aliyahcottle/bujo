@@ -1,0 +1,28 @@
+{
+  "name": "ng-Lettering.js",
+  "main": [
+    "ng-Lettering.js"
+  ],
+  "keywords": [
+    "angular",
+    "javascript",
+    "typography",
+    "span",
+    "injection"
+  ],
+  "ignore": [
+    "**/.*",
+    "styles"
+  ],
+  "homepage": "https://github.com/patrickmarabeas/ng-Lettering",
+  "_release": "247cbe0588",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "247cbe05882fa12c494232bed0d5a150719bfcbc"
+  },
+  "_source": "https://github.com/patrickmarabeas/ng-Lettering.git",
+  "_target": "*",
+  "_originalSource": "ng-Lettering.js",
+  "_direct": true
+}
