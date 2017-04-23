@@ -23,6 +23,8 @@ import { SettingsComponent } from './settings/settings.component';
 import { LegendComponent } from './legend/legend.component';
 import { BannerComponent } from './banner/banner.component';
 
+import { AppRoutingModule }     from './app-routing.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,7 +50,8 @@ import { BannerComponent } from './banner/banner.component';
     DateInputsModule,
     GridModule,
     PopupModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
 
   ],
   providers: [],
