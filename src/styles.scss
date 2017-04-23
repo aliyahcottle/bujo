@@ -3,7 +3,7 @@
 
 //Variables
 $font-family: 'Reenie Beanie', cursive;
-$accent-color: #EF6917;
+$accent-color: #0F53AD;
 $radius: 50px;
 
 html{
@@ -91,4 +91,12 @@ monthly-overview{
 
 .k-calendar-header .k-today{
 	color: $accent-color;
+}
+
+.k-grid tr.k-alt{
+	background-color: white;
+}
+
+.k-grid-header{
+	display: none;
 }

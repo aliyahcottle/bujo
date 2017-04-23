@@ -12,11 +12,32 @@
 
 	<div class="bottom-banner"></div>
 </div>
-<div id="monthly_container">
-
-	<h2>{{title}}</h2>
 	
-	This is the container lorem
+	<div id="split">
 
+	<div id="monthly-goals">
+
+	        <h2>{{title}}</h2>
+			
+			<div class="goals">
+				This is Monthly goals
+			</div>
+
+			<div class="tasks">
+				This is the tasks goals
+			</div>		
+
+		</div>
+		
+		<div id="monthly-grid">
+			<kendo-grid [data]="gridData" [height]="410">
+            <kendo-grid-column field="day" width="20">
+            </kendo-grid-column>
+            <kendo-grid-column field="dow" width="20">
+            </kendo-grid-column>
+            <kendo-grid-column field="event" width="60" >
+            </kendo-grid-column>
+        </kendo-grid>
+		</div>
 
 </div>

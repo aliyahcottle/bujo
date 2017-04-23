@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { months } from './months';
 
 @Component({
   selector: 'monthly-overview',
@@ -12,6 +13,7 @@ export class MonthlyOverviewComponent implements OnInit {
   ngOnInit() {
   }
 
-  title = 'Monthly Overview';
+  private gridData: any[] = months;
+  title = 'April';
 
 }
