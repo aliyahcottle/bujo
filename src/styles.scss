@@ -1,9 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@progress/kendo-theme-default/scss/all";
 
-
+//Variables
 $font-family: 'Reenie Beanie', cursive;
 $accent-color: #EF6917;
+$radius: 50px;
 
 html{
 	height: 100%;
@@ -13,6 +14,8 @@ body{
 	background: #31135A;
 	margin: 0px;
 	max-height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 #bujo-entry{
@@ -30,7 +33,7 @@ body{
 .tabs{
 	width: 5%;
 	height: 100%;
-    border-radius: 50px;
+    border-radius: $radius;
     flex-direction: row-reverse;
     margin: auto;
 }
@@ -48,7 +51,7 @@ body{
 	margin: auto;
 	min-height: 100%;
 	border: 1px dashed #ecf0f1;
-	border-radius: 50px;
+	border-radius: $radius;
 	background: #FFFFFF;
 	display: flex;
 }
@@ -60,10 +63,20 @@ h1, a{
     text-decoration: none;
 }
 
+monthly-overview{
+	display: flex;
+	height: 100%;
+}
+
+#selection{
+	width: 70%;
+	border-radius: $radius;
+}
+
 
 .k-calendar.k-calendar-infinite {
  height: 500px;
- border-radius: 50px;
+ border-radius: $radius;
 
 }
 

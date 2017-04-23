@@ -12,4 +12,6 @@ export class MonthlyOverviewComponent implements OnInit {
   ngOnInit() {
   }
 
+  title = 'Monthly Overview';
+
 }

@@ -1,0 +1,45 @@
+#monthly_container{
+	border: 1px solid black;
+	width: 100%;
+	height: 100%;
+}
+
+#page-banner{
+	width: 5%;
+	margin: 1%;
+	margin-top: -1px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.title{
+	width: 100%;
+	background: #B12BFF;
+	margin: 1%;
+	margin-top: -1px;
+	padding: 1%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+.bottom-banner{
+	width: 100%;
+	height: 15px;
+	margin: 1%;
+	margin-bottom: -18px;
+	padding: 1%;
+	background: #B12BFF;
+	align-self: flex-end;
+}
+
+#page-banner p{
+	font-family: 'Reenie Beanie', cursive;
+	color: #ecf0f1;
+	height: 5px;
+}
