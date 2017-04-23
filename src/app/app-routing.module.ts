@@ -1,14 +1,13 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { MonthlyOverviewComponent } from './monthly-overview/monthly-overview.component';
-import { HabitTrackerComponent } from './habit-tracker/habit-tracker.component';
-import { JournalTabsComponent } from './journal-tabs/journal-tabs.component';
-import { WeeklyOverviewComponent } from './weekly-overview/weekly-overview.component';
-import { DailyOverviewComponent } from './daily-overview/daily-overview.component';
-import { BirthdayOverviewComponent } from './birthday-overview/birthday-overview.component';
-import { YearOverviewComponent } from './year-overview/year-overview.component';
-import { ZodiacOverviewComponent } from './zodiac-overview/zodiac-overview.component';
+import { MonthlyOverviewComponent } from './page/monthly-overview/monthly-overview.component';
+import { HabitTrackerComponent } from './page/habit-tracker/habit-tracker.component';
+import { WeeklyOverviewComponent } from './page/weekly-overview/weekly-overview.component';
+import { DailyOverviewComponent } from './page/daily-overview/daily-overview.component';
+import { BirthdayOverviewComponent } from './page/birthday-overview/birthday-overview.component';
+import { YearOverviewComponent } from './page/year-overview/year-overview.component';
+import { ZodiacOverviewComponent } from './page/zodiac-overview/zodiac-overview.component';
 
 
 const routes: Routes = [
@@ -25,4 +24,7 @@ const routes: Routes = [
   imports: [ RouterModule.forRoot(routes) ],
   exports: [ RouterModule ]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule {
+
+	
+}

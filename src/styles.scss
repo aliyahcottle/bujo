@@ -75,12 +75,18 @@ monthly-overview, weekly-overview, birthday-overview{
 }
 
 
+#widget{
+	position: absolute;
+    top: 65%;
+    left: 13%;
+}
+
+
 .k-calendar.k-calendar-infinite {
  height: 500px;
  border-radius: $radius;
 
 }
-
 
 .k-widget{
 	border-style: none;
