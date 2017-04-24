@@ -29,6 +29,7 @@ import { WaterIntakeComponent } from      './widgets/water-intake/water-intake.c
 
 
 import { AppRoutingModule } from          './app-routing.module';
+import { SocialOverviewComponent } from './page/social-overview/social-overview.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { AppRoutingModule } from          './app-routing.module';
     FooterComponent,
     SettingsComponent,
     LegendComponent,
-    BannerComponent
+    BannerComponent,
+    SocialOverviewComponent
   ],
   imports: [
     BrowserModule,

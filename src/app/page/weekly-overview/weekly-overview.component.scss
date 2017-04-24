@@ -64,11 +64,46 @@
 
 .week-header{
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
 }
 
 .week-entry{
 	width: 45%;
-	height: 28%; 
+	height: 32%; 
+	display: flex;
+	flex-direction: column;
+}
+
+.week-tasks{
+	height: 100%;
 	border: 1px solid black;
-	margin-bottom: 20px;
+	display:flex;
+	flex-direction: column;
+	padding: 5px;
+}  
+
+.week-tasks p{
+	margin:0px;	
+}
+
+.day {
+	border: 2px solid #00BCD4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+	background-color: #4DD0E1;
+	color: #F4F4F4;
+
+}
+
+
+.weekday{
+	color:#666666;
+}
+
+.week-ending{
+	height: 5%;
 }

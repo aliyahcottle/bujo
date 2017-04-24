@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
 	private showLegend: boolean = false;
 	private showSettings: boolean = false;
 
-	public offset = { left: 310, top: 150 };
+	public offset = { left: 310 };
 
 	public onToggleLegend(): void {
 		if (this.showSettings == true){
