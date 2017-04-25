@@ -79,12 +79,24 @@
 }
 
 .goals{
+	display: flex;
 	height: 40%;
-	border: 1px solid black;
+	border: 2px dashed #F4F4F4;
 	margin-bottom: 20px;
+	justify-content: center;
+	align-items: center;
 }
 
 .tasks{
+	display: flex;
 	height: 40%;
-	border: 1px solid black;
+	border: 2px dashed #F4F4F4;
+	justify-content: center;
+	align-items: center;
+}
+
+.goals, .tasks{
+	.fa{
+		color: #F4F4F4;
+	}
 }
