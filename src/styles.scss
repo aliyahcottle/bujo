@@ -28,7 +28,7 @@ body{
 
 }
 
-.tabs, .journal-entry{
+.journal-entry{
 	display: flex;
 }
 
@@ -36,12 +36,13 @@ body{
 	width: 5%;
 	height: 100%;
     border-radius: $radius;
-    flex-direction: row-reverse;
     margin: auto;
+
+
 }
 
 #journal-entry{
-	min-height: 80%;
+	height: 90%;
 	width: 90%;
 	margin: auto;
 	display: flex;
@@ -85,7 +86,7 @@ monthly-overview, weekly-overview, birthday-overview{
 
 
 .k-calendar.k-calendar-infinite {
- height: 500px;
+ height: 550px;
  border-radius: $radius;
 
 }

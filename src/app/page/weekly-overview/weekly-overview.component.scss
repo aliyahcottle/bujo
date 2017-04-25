@@ -95,8 +95,17 @@
 
 }
 
+.right-align{
+	flex-direction: row-reverse;
+}
+
+.right-align span{
+	margin-right: 10px;
+}
+
 .week-item{
 	height: 100%;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	font-size: 12px;
