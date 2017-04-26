@@ -41,3 +41,21 @@ bujo-banner{
 	color: #ecf0f1;
 	height: 5px;
 }
+
+@media only screen and(max-width: 480px){
+	#page-banner{
+		margin-right: 0px;
+		height: 100%;
+	}
+	
+	.bottom-banner{
+		display: none;
+	}
+
+	.title{
+		border-top-right-radius: 50px;
+		margin-top: 0px;
+
+	}
+
+}

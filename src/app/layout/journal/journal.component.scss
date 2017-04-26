@@ -1,8 +1,3 @@
-bujo-journal{
-	width: 90%;
-	height: 100%;
-}
-
 #bujo-journal{
 	width: 100%;
 	height: 80%;
@@ -31,3 +26,14 @@ bujo-journal{
     left: 10%;
 }
 
+@media only screen and(max-width: 480px){
+
+	#bujo-journal{
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	#bujo-page-left{
+		flex-direction: row;
+	}
+}
