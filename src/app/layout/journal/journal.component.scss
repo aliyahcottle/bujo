@@ -36,4 +36,18 @@
 	#bujo-page-left{
 		flex-direction: row;
 	}
+
+	#bujo-page-right{
+    width: 80%;
+    border-radius: 50px;
+    position: relative;
+    top: -510px;
+    left: 18%;
+}
+
+	#widget{
+		bottom: 0%;
+		left: 15%;
+		display: none;
+	}
 }

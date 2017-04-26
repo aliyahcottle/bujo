@@ -134,8 +134,20 @@ bujo-banner{
 
 .k-calendar.k-calendar-infinite {
 	height:534px;
-width: 84%;
+width: 95%;
 }
 
+.k-calendar .k-content.k-scrollable {
+    box-sizing: content-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-right: 0px; 
+    margin-right: 0px; 
+    width: 100%;
+}
+
+.k-calendar-monthview table{
+	display: none;
+}
 
 }

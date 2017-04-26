@@ -110,3 +110,28 @@
 	color: #F4F4F4;
 	}
 }
+
+
+@media only screen and(max-width: 480px){
+	
+	.week-entry{
+    width: 87%;
+    height: 32%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.week-tasks{
+	width: 96%;
+	margin-bottom: 5px;
+}
+
+.week-header{
+	margin-bottom: 5px;
+}
+}
