@@ -1,6 +1,5 @@
 #options{
 	height: 100%;
-	background: #31135A;
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,4 +14,16 @@ li.selected{
 	background: white;
 	border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+@media only screen and(max-width: 480px){
+
+	#options{
+		flex-direction: row;
+		height: 80%;
+	}
+
+	li.selected{
+		background: none;
+	}
 }

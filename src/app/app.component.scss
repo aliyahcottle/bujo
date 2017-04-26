@@ -3,3 +3,9 @@ app-header, app-footer{
 	text-align: center;
 }
 
+@media only screen and(max-width: 480px){
+
+	app-footer{
+		display: none;
+	}
+}

@@ -4,39 +4,9 @@
 
 
 	<div id="bujo-container">
-		<div id="bujo-journal">
 
-			<div id="bujo-page-left">
-				
-
-				<kendo-calendar [value]="value">
-					
-
-				</kendo-calendar>
-
-				<div id="widget">
-					<water-intake></water-intake>
-				</div>
-				
-
-			</div>
-
-			<bujo-banner></bujo-banner>
-
-
-			<div id="bujo-page-right">
-				
-				<router-outlet></router-outlet>
-
-
-			</div>
-
-
-			
-
-		</div>
-
-		<journal-tabs class="tabs"></journal-tabs>
+		<bujo-journal></bujo-journal>
+		<bujo-tabs class="tabs"></bujo-tabs>
 
 	</div>
 

@@ -25,11 +25,13 @@ import { BannerComponent } from           './layout/banner/banner.component';
 import { JournalTabsComponent } from      './layout/journal-tabs/journal-tabs.component';
 import { HeaderComponent } from           './layout/header/header.component';
 
+
 import { WaterIntakeComponent } from      './widgets/water-intake/water-intake.component';
 
 
 import { AppRoutingModule } from          './app-routing.module';
 import { SocialOverviewComponent } from './page/social-overview/social-overview.component';
+import { JournalComponent } from './layout/journal/journal.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,8 @@ import { SocialOverviewComponent } from './page/social-overview/social-overview.
     SettingsComponent,
     LegendComponent,
     BannerComponent,
-    SocialOverviewComponent
+    SocialOverviewComponent,
+    JournalComponent
   ],
   imports: [
     BrowserModule,

@@ -20,6 +20,11 @@ body{
 	font-family: 'Karla', sans-serif;
 }
 
+bujo-journal{
+	width: 90%;
+	height: 100%;
+}
+
 #bujo-entry{
 	width: 100vw;
 	height: 100vh;
@@ -27,23 +32,6 @@ body{
 	flex-direction: column;
 
 }
-
-#bujo-journal{
-	width: 90%;
-	height: 80%;
-	min-height: 100%;
-	border: 1px dashed #ecf0f1;
-	border-radius: $radius;
-	background: #FFFFFF;
-	display: flex;
-}
-
-#bujo-page-left{
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-}
-
 #bujo-container{
 	display: flex;
 	width: 100%;
@@ -59,24 +47,6 @@ body{
     border-radius: $radius;
 }
 
-#journal-entry{
-	height: 90%;
-	width: 90%;
-	margin: auto;
-	display: flex;
-}
-
-.page{
-	width: 95%;
-	margin: 2%;
-	margin: auto;
-	min-height: 100%;
-	border: 1px dashed #ecf0f1;
-	border-radius: $radius;
-	background: #FFFFFF;
-	display: flex;
-}
-
 h1, a{
 	font-family: 'Reenie Beanie', cursive;
 	font-size: 20px;
@@ -90,26 +60,13 @@ monthly-overview, weekly-overview, birthday-overview, daily-overview{
 }
 
 
-#bujo-page-right{
-	width: 80%;
-	border-radius: $radius;
-}
-
-
-#widget{
-	position: absolute;
-    top: 60%;
-    left: 10%;
-}
-
-
 
 bujo-header{
 	height: 10%;
 }
 
 bujo-banner{
-	width: 3%;
+	width: 5%;
 }
 
 .k-calendar.k-calendar-infinite {
@@ -148,3 +105,17 @@ bujo-banner{
     border-right: 3px solid #ecf0f1;
     box-shadow: 5px 5px 5px #888888;
   }
+
+
+@media only screen and(max-width: 480px){
+
+	#bujo-container{
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	bujo-journal{
+		width: 97%;
+		height: 90%;
+	}
+}
