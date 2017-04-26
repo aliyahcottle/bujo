@@ -1,0 +1,154 @@
+#daily-layout{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+.daily-container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.daily-heading{
+	text-align: left;
+}
+
+.daily-right{
+	display: flex;
+	width: 45%;
+	height: 100%;
+	flex-direction: column;
+}
+
+.daily-left{
+	display: flex;
+	width: 45%;
+	height: 100%;
+	flex-direction: column;
+}
+
+.daily-events{
+	height: 35%;
+	width: 100%;
+}
+
+
+.daily-events-empty{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		border: 2px dashed #F4F4F4;
+}
+
+.daily-timeline{
+	height: 54%;
+	width: 100%;
+}
+
+.daily-tasks{
+	height: 60%;
+}
+
+.grid{
+	width: 45%;
+}
+
+#page-banner{
+	width: 5%;
+	margin: 1%;
+	margin-top: -1px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.title{
+	width: 100%; 
+	background: #B12BFF;
+	margin: 1%;
+	margin-top: -1px;
+	padding: 1%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+.bottom-banner{
+	width: 100%;
+	height: 15px;
+	margin: 1%;
+	margin-bottom: -18px;
+	padding: 1%;
+	background: #B12BFF;
+	align-self: flex-end;
+}
+
+#page-banner p{
+	font-family: 'Reenie Beanie', cursive;
+	color: #ecf0f1;
+	height: 5px;
+}
+
+#split{
+	display: flex;
+	width: 100%;
+}
+
+#daily-grid{
+	width: 50%;
+	margin-left: 20px;
+	display: flex;
+	height: 100%;
+	margin-top: 8%;
+}
+
+
+#daily-goals{
+	width: 42%;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	margin-left: 20px;
+
+}
+
+.k-grid tr.k-alt{
+	background-color: white;
+}
+
+.k-grid-header{
+	display: none;
+}
+
+.goals{
+	display: flex;
+	height: 40%;
+	border: 2px dashed #F4F4F4;
+	margin-bottom: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.tasks{
+	display: flex;
+	height: 40%;
+	border: 2px dashed #F4F4F4;
+	justify-content: center;
+	align-items: center;
+}
+
+.goals, .tasks{
+	.fa{
+		color: #F4F4F4;
+	}
+}

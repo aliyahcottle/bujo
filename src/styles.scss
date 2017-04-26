@@ -28,17 +28,35 @@ body{
 
 }
 
-.journal-entry{
+#bujo-journal{
+	width: 90%;
+	height: 80%;
+	min-height: 100%;
+	border: 1px dashed #ecf0f1;
+	border-radius: $radius;
+	background: #FFFFFF;
 	display: flex;
+}
+
+#bujo-page-left{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+#bujo-container{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 .tabs{
 	width: 5%;
 	height: 100%;
     border-radius: $radius;
-    margin: auto;
-
-
 }
 
 #journal-entry{
@@ -66,14 +84,14 @@ h1, a{
     text-decoration: none;
 }
 
-monthly-overview, weekly-overview, birthday-overview{
+monthly-overview, weekly-overview, birthday-overview, daily-overview{
 	display: flex;
 	height: 100%;
 }
 
 
-#selection{
-	width: 70%;
+#bujo-page-right{
+	width: 80%;
 	border-radius: $radius;
 }
 
@@ -81,9 +99,18 @@ monthly-overview, weekly-overview, birthday-overview{
 #widget{
 	position: absolute;
     top: 60%;
-    left: 13%;
+    left: 10%;
 }
 
+
+
+bujo-header{
+	height: 10%;
+}
+
+bujo-banner{
+	width: 3%;
+}
 
 .k-calendar.k-calendar-infinite {
  height: 550px;

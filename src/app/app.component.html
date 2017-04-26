@@ -1,38 +1,47 @@
 <div id="bujo-entry">
 
-	<app-header></app-header>
+	<bujo-header></bujo-header>
 
 
-	<div id="journal-entry">
+	<div id="bujo-container">
+		<div id="bujo-journal">
 
-		<div class="page">
-
+			<div id="bujo-page-left">
 				
+
 				<kendo-calendar [value]="value">
+					
+
+				</kendo-calendar>
+
+				<div id="widget">
+					<water-intake></water-intake>
+				</div>
 				
-
-			</kendo-calendar>
-
-		<div id="widget">
-			<water-intake></water-intake>
-		</div>
-				
-			
-
-			<div id="selection">
-
-				<router-outlet></router-outlet>
 
 			</div>
 
-		</div>
+			<bujo-banner></bujo-banner>
 
+
+			<div id="bujo-page-right">
+				
+				<router-outlet></router-outlet>
+
+
+			</div>
+
+
+			
+
+		</div>
 
 		<journal-tabs class="tabs"></journal-tabs>
 
-
 	</div>
+
 
 	<app-footer></app-footer>
 
 </div>
+

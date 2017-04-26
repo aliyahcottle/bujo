@@ -1,5 +1,4 @@
-banner{
-	width: 5%;
+#page-banner{
 	margin: 1%;
 	margin-top: -1px;
 	display: flex;
@@ -32,7 +31,7 @@ banner{
 	align-self: flex-end;
 }
 
-banner p{
+#page-banner p{
 	font-family: 'Reenie Beanie', cursive;
 	color: #ecf0f1;
 	height: 5px;
