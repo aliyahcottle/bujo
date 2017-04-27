@@ -110,6 +110,41 @@
 	}
 }
 
+.month-grid{
+	width: 90%;
+	border: 1px solid black;
+}
+.month-grid{
+	li{
+		display: flex;
+		margin-bottom: 10px;
+	}
+
+
+}
+.month-grid-dayList{
+	ul li {
+		list-style-type: disc;
+		margin-bottom: 5px;
+	}
+}
+
+	.month-grid-day{
+		width: 3%;
+		
+	}
+
+
+	.month-grid-weekday{
+		width: 5%;
+		border-right: 1px solid black;
+	}
+
+li.month-grid-dayEvent{
+	display: flex;
+}
+
+
 @media only screen and(max-width: 480px){
 
 	#bujo-journal{
@@ -120,7 +155,6 @@
 	#bujo-page-left{
 		flex-direction: row;
 	}
-
 	#bujo-page-right{
     width: 80%;
     border-radius: 50px;

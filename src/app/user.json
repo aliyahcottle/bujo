@@ -1,0 +1,40 @@
+{
+	"user": {
+		"name": "Aliyah Cottle",
+		"birthday": "September 26th",
+		"journals": {
+			"2017": {
+
+				"April": {
+
+					"01": {
+						"events": [{}],
+						"mood": [{}],
+						"water": [{}],
+						"appointments": [{}],
+						"tasks": [{}],
+						"goals": [{}]
+					},
+					"02": {
+
+						"events": [{}],
+						"mood": [{}],
+						"water": [{}],
+						"appointments": [{}],
+						"tasks": [{}],
+						"goals": [{}]
+
+					},
+					"03": {
+						"events": [{}],
+						"mood": [{}],
+						"water": [{}],
+						"appointments": [{}],
+						"tasks": [{}],
+						"goals": [{}]
+					}
+				}
+			}
+		}
+	}
+}
